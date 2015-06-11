@@ -1,5 +1,5 @@
 # Maintain your gem's version:
-require "act_as_nested_commentable/version"
+require File.expand_path('../lib/act_as_nested_commentable/version', __FILE__)
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|

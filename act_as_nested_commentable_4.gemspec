@@ -1,5 +1,3 @@
-$:.push File.expand_path("../lib", __FILE__)
-
 # Maintain your gem's version:
 require "act_as_nested_commentable/version"
 
@@ -9,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = ActAsNestedCommentable::VERSION
   s.authors     = ["Xue Wenfei"]
   s.email       = ["286xwf@163.com"]
-  s.homepage    = "xzlearning.com"
+  s.homepage    = %q{http://xzlearning.com}
   s.summary     = "Summary of ActAsNestedCommentable."
   s.description = "Description of ActAsNestedCommentable."
   s.license     = "MIT"
